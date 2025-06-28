@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Aurora from "../backgrounds/Aurora";
 
 const words = ["Stronger", "Fitter", "Healthier"];
 
@@ -35,24 +34,6 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center text-blue-400 overflow-hidden">
-      {/* Background Image with Parallax & Blur */}
-      <div
-        className="absolute inset-0 bg-[url('/bg-hero.jpg')] bg-cover bg-center bg-fixed blur-sm -z-30"
-        aria-hidden="true"
-      />
-      
-      {/* Black Background Layer */}
-      <div className="absolute inset-0 bg-black/70 -z-20" />
-      
-      {/* Background Aurora */}
-      <div className="absolute inset-0 -z-10">
-        <Aurora
-          colorStops={["#1e3a8a", "#3b82f6", "#1e3a8a"]}
-          amplitude={0.5}
-          blend={0.3}
-        />
-      </div>
-
       {/* Content */}
       <div className="z-10 px-6 text-center max-w-4xl space-y-6">
         <h1 className="text-3xl md:text-6xl font-bold text-white leading-tight">
