@@ -13,7 +13,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-md z-50 shadow-lg font-poppins">
+    <header className="fixed top-0 left-0 w-full bg-black/70 backdrop-blur-md z-50 shadow-lg font-poppins">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         <a
           href="#home"
@@ -28,7 +28,7 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="px-4 py-2 rounded-lg text-base font-medium text-blue-400 hover:text-white hover:bg-blue-500/20 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="px-4 py-2 rounded-lg text-base font-medium text-white hover:text-blue-500 hover:bg-blue-500/20 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               {link.label}
             </a>

@@ -43,7 +43,7 @@ export default function Hero() {
           </span>
           .
         </h1>
-        <p className="text-blue-400 text-lg md:text-xl">
+        <p className="text-white text-lg md:text-xl">
           RayGym empowers your fitness journey with modern technology and strong community support. 
         </p>
         <div className="flex justify-center gap-4 flex-wrap">
@@ -55,7 +55,7 @@ export default function Hero() {
           </a>
           <a
             href="#about"
-            className="px-6 py-3 border border-blue-500 text-blue-500 rounded-full hover:bg-blue-700 hover:text-white hover:text-black transition"
+            className="px-6 py-3 border border-white text-white rounded-full hover:bg-blue-700 hover:border-blue-700 transition"
           >
             Learn More
           </a>

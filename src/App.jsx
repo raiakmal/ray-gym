@@ -1,6 +1,6 @@
 import "./App.css";
+import Silk from "./components/backgrounds/Silk";
 import Hero from "./components/sections/Hero";
-import Aurora from "./components/backgrounds/Aurora";
 import Navbar from "./components/sections/Navbar";
 import FeaturesSection from "./components/sections/FeaturesSection";
 
@@ -11,19 +11,18 @@ function App() {
       <div className="relative z-0">
         {/* Background Image with Parallax & Blur */}
         <div
-          className="absolute inset-0 bg-[url('/bg-hero.jpg')] bg-cover bg-center bg-fixed blur-[2px] -z-30"
+          className="absolute inset-0 bg-[url('/bg-hero.jpg')] bg-cover bg-center bg-fixed blur-[2px] -z-20"
           aria-hidden="true"
         />
 
-        {/* Black Overlay Layer */}
-        <div className="absolute inset-0 bg-black/80 -z-20" />
-
         {/* Aurora Effect Layer */}
-        <div className="absolute inset-0 -z-10">
-          <Aurora
-            colorStops={["#1e3a8a", "#3b82f6", "#1e3a8a"]}
-            amplitude={0.5}
-            blend={0.3}
+        <div className="absolute inset-0 -z-10 opacity-90 pointer-events-none">
+          <Silk
+            speed={8}
+            scale={0.5}
+            color="#0D033F"
+            noiseIntensity={0}
+            rotation={0}
           />
         </div>
 
