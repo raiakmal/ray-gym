@@ -12,9 +12,9 @@ export default function GallerySection() {
   ];
 
   return (
-    <section id="gallery" className="relative -mt-1 py-24 md:py-32 px-2 md:px-6 text-white z-10 bg-gradient-to-b from-black via-blue-950/80 to-black">
+    <section id="gallery" className="relative -mt-1 py-24 md:py-32 px-2 md:px-6 text-white z-10 bg-gradient-to-b from-black via-blue-950 to-black">
       <div className="max-w-6xl mx-auto text-center space-y-10">
-        <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 via-blue-600 to-blue-400 bg-clip-text text-transparent drop-shadow-lg">
+        <h2 className="text-3xl md:text-4xl font-bold text-blue-500">
           Gallery
         </h2>
         <p className="text-blue-100 max-w-2xl mx-auto">

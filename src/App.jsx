@@ -6,6 +6,7 @@ import AboutSection from "./components/sections/AboutSection";
 import FeaturesSection from "./components/sections/FeaturesSection";
 import PricingSection from "./components/sections/PricingSection";
 import GallerySection from "./components/sections/GallerySection";
+import CTASection from "./components/sections/CTASection";
 
 function App() {
   return (
@@ -55,6 +56,9 @@ function App() {
 
       {/* === Gallery Section === */}
       <GallerySection />
+
+      {/* === Call to Action Section === */}
+      <CTASection />
       <h1 className="text-red-500">Hallo World</h1>
     </>
   );
