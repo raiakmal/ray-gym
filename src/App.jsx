@@ -5,6 +5,7 @@ import Hero from "./components/sections/Hero";
 import AboutSection from "./components/sections/AboutSection";
 import FeaturesSection from "./components/sections/FeaturesSection";
 import PricingSection from "./components/sections/PricingSection";
+import GallerySection from "./components/sections/GallerySection";
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
         {/* === Features Section === */}
         <div className="relative">
           <div
-            className="absolute inset-0 bg-[url('/bg-features.jpg')] bg-cover bg-center bg-fixed blur-[2px] -z-20"
+            className="absolute -mt-1 inset-0 bg-[url('/bg-features.jpg')] bg-cover bg-center bg-fixed blur-[2px] -z-20"
             aria-hidden="true"
           />
           <div className="absolute inset-0 bg-black/90 -z-10 pointer-events-none" />
@@ -44,7 +45,7 @@ function App() {
         {/* === Pricing Section === */}
         <div className="relative">
           <div
-            className="absolute inset-0 bg-[url('/bg-pricing.jpg')] bg-cover bg-center bg-fixed blur-[2px] -z-20"
+            className="absolute -mt-1 inset-0 bg-[url('/bg-pricing.jpg')] bg-cover bg-center bg-fixed blur-[2px] -z-20"
             aria-hidden="true"
           />
           <div className="absolute inset-0 bg-black/70 -z-10 pointer-events-none" />
@@ -52,6 +53,8 @@ function App() {
         </div>
       </div>
 
+      {/* === Gallery Section === */}
+      <GallerySection />
       <h1 className="text-red-500">Hallo World</h1>
     </>
   );
