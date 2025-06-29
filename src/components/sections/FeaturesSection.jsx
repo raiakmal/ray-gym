@@ -37,7 +37,10 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section id="features" className="text-white pb-40 px-6">
+    <section
+      id="features"
+      className="relative py-24 md:py-32 px-6 text-white z-10"
+    >
       <div className="max-w-6xl mx-auto text-center space-y-10">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-500">
           Why Choose RayGym?
