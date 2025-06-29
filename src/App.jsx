@@ -4,6 +4,7 @@ import Silk from "./components/backgrounds/Silk";
 import Hero from "./components/sections/Hero";
 import AboutSection from "./components/sections/AboutSection";
 import FeaturesSection from "./components/sections/FeaturesSection";
+import PricingSection from "./components/sections/PricingSection";
 
 function App() {
   return (
@@ -38,6 +39,16 @@ function App() {
           />
           <div className="absolute inset-0 bg-black/90 -z-10 pointer-events-none" />
           <FeaturesSection />
+        </div>
+
+        {/* === Pricing Section === */}
+        <div className="relative">
+          <div
+            className="absolute inset-0 bg-[url('/bg-pricing.jpg')] bg-cover bg-center bg-fixed blur-[2px] -z-20"
+            aria-hidden="true"
+          />
+          <div className="absolute inset-0 bg-black/70 -z-10 pointer-events-none" />
+          <PricingSection />
         </div>
       </div>
 

@@ -33,7 +33,7 @@ export default function Hero() {
   }, [displayed, typing, wordIndex]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center text-blue-400 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center text-blue-400 overflow-hidden">
       {/* Content */}
       <div className="z-10 px-6 text-center max-w-4xl space-y-6">
         <h1 className="text-3xl md:text-6xl font-bold text-white leading-tight">
