@@ -7,6 +7,7 @@ import FeaturesSection from "./components/sections/FeaturesSection";
 import PricingSection from "./components/sections/PricingSection";
 import GallerySection from "./components/sections/GallerySection";
 import CTASection from "./components/sections/CTASection";
+import Footer from "./components/sections/Footer";
 
 function App() {
   return (
@@ -59,7 +60,9 @@ function App() {
 
       {/* === Call to Action Section === */}
       <CTASection />
-      <h1 className="text-red-500">Hallo World</h1>
+
+      {/* Footer or additional sections can go here */}
+      <Footer />
     </>
   );
 }
