@@ -1,12 +1,65 @@
-# React + Vite
+# 💪 RayGym — Smart Fitness Platform Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RayGym adalah landing page modern dan interaktif untuk layanan fitness digital. Website ini dirancang dengan visual kuat, fitur lengkap, dan pengalaman pengguna yang smooth — cocok untuk promosi gym, aplikasi kebugaran, atau komunitas kesehatan.
 
-Currently, two official plugins are available:
+## 🔥 Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📱 **Navbar Fixed + Scroll Smooth**: Navigasi tetap di atas & scroll smooth ke setiap section.
+- 💥 **Hero Section Dinamis**: Animasi typing motivasional (`Stronger`, `Fitter`, `Healthier`) + CTA langsung.
+- 🧠 **About Section**: Penjelasan brand RayGym dengan kombinasi teks & gambar.
+- ⚙️ **Features Section**: Empat fitur utama: Smart Workout Plans, Fitness Coach, Community Support, Progress Tracking.
+- 💰 **Pricing Section**: Pilihan harga Harian, Bulanan, Tahunan dengan highlight interaktif.
+- 🖼️ **Gallery Section**: Galeri grid gambar untuk memperkuat branding.
+- 📣 **CTA Section**: Ajakan bergabung dengan tombol aksi.
+- 🔗 **Footer Responsif**: Kontak, link navigasi cepat, social media, alamat.
 
-## Expanding the ESLint configuration
+## 🛠️ Teknologi
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **Tailwind CSS**
+- **Lucide React Icons**
+- **Custom Typing Effect (React Hooks)**
+- **Responsive Layout (Mobile First)**
+- **Smooth Scrolling Navigation**
+
+## 🚀 Cara Menjalankan
+
+```bash
+git clone https://github.com/raiakmal/ray-gym.git
+cd raygym-landing
+npm install
+npm run dev
+```
+
+> Pastikan Node.js versi terbaru sudah terpasang dan gunakan bundler seperti Vite.
+
+## 🧪 Fitur Interaktif
+
+- Navigasi antar section menggunakan scroll smooth berbasis event, bukan anchor default.
+- Layout responsif untuk semua resolusi (mobile hingga desktop).
+- Animasi & efek transisi pada tombol dan hover.
+
+## 🤖 AI Support Explanation
+
+Landing page ini didesain dan dikembangkan dengan bantuan AI (GitHub Copilot, ChatGPT, dan IBM Granite) untuk:
+
+- Otomatisasi pembuatan efek animasi dan interaksi.
+- Memastikan kode tetap clean, konsisten, dan mudah dikembangkan.
+
+## 📌 Catatan
+
+- Gambar latar & galeri menggunakan file lokal di folder `/public`. Pastikan file tersedia.
+
+## 🖼️ Preview
+
+![Preview Hero](./public/readme/readme1.png)
+![Preview Features](./public/readme/readme2.png)
+
+## 📧 Kontak
+
+- **Email:** [muhammadrai0504@gmail.com](mailto:muhammadrai0504@gmail.com)
+- **Lokasi:** Tasikmalaya, Indonesia
+
+---
+
+©️ 2025 RayGym — Built with 💙
