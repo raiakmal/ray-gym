@@ -53,7 +53,7 @@ export default function PricingSection() {
               key={idx}
               className={`relative rounded-3xl p-8 border-2 transition-all duration-300 group shadow-xl overflow-hidden
                 ${plan.highlight
-                  ? "bg-gradient-to-br from-blue-900/90 to-blue-800/90 border-blue-500 scale-105 hover:scale-110 shadow-blue-700/40"
+                  ? "bg-gradient-to-br from-blue-900/90 to-blue-800/90 border-blue-500 md:scale-105 hover:scale-110 shadow-blue-700/40"
                   : "bg-[#0f0f0f]/80 border-blue-900 hover:scale-105 hover:shadow-blue-900/30"
                 }`}
             >

@@ -1,5 +1,5 @@
-import { Instagram, Facebook, Phone } from "lucide-react";
 import { useCallback } from "react";
+import { Instagram, Facebook, Phone } from "lucide-react";
 
 export default function Footer() {
   const handleSmoothScroll = useCallback((e, targetId) => {
@@ -24,7 +24,36 @@ export default function Footer() {
           <p>
             Elevate your body and mind. Join the smarter fitness movement today.
           </p>
-          <div className="flex gap-3 mt-2">{/* Icon links */}</div>
+          {/* Social Icons */}
+          <div className="flex gap-4 mt-4">
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-blue-900 hover:bg-white transition-colors group"
+              aria-label="Instagram"
+            >
+              <Instagram className="w-6 h-6 text-white group-hover:text-blue-900" />
+            </a>
+            <a
+              href="https://facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-blue-900 hover:bg-white transition-colors group"
+              aria-label="Facebook"
+            >
+              <Facebook className="w-6 h-6 text-white group-hover:text-blue-900" />
+            </a>
+            <a
+              href="https://wa.me/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-blue-900 hover:bg-white transition-colors group"
+              aria-label="WhatsApp"
+            >
+              <Phone className="w-6 h-6 text-white group-hover:text-blue-900" />
+            </a>
+          </div>
         </div>
 
         {/* Quick Links */}
@@ -40,7 +69,7 @@ export default function Footer() {
               <li key={item.id}>
                 <a
                   onClick={(e) => handleSmoothScroll(e, item.id)}
-                  className="hover:text-blue-200 transition-colors text-left w-full cursor-pointer" 
+                  className="hover:text-blue-200 transition-colors text-left w-full cursor-pointer"
                 >
                   {item.label}
                 </a>
@@ -90,7 +119,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mt-10 border-t border-blue-800 pt-6 text-center text-xs text-blue-200">
+      <div className="mt-10 border-t border-blue-800 pt-6 text-center text-sm text-blue-500">
         ©{new Date().getFullYear()} RayGym. All rights reserved.
       </div>
     </footer>
