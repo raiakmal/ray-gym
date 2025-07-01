@@ -26,7 +26,7 @@ RayGym adalah landing page modern dan interaktif untuk layanan fitness digital. 
 
 ```bash
 git clone https://github.com/raiakmal/ray-gym.git
-cd raygym-landing
+cd raygym
 npm install
 npm run dev
 ```
